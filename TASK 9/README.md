@@ -7,6 +7,3 @@ Features:
 - Controller to handle requests
 - Model to store employee data
 - JSP view to display employee information
-
-URL:
-http://localhost:8080/springmvc-employee/employee
