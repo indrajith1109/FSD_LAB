@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Feedback Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="container">
+    <h2>Customer Feedback Form</h2>
+
+    <form id="feedbackForm">
+
+        <input type="text" id="name" placeholder="Enter Name" onkeyup="validateName()">
+        <div id="nameError" class="error"></div>
+
+        <input type="email" id="email" placeholder="Enter Email" onkeyup="validateEmail()">
+        <div id="emailError" class="error"></div>
+
+        <textarea id="feedback" placeholder="Enter Feedback"></textarea>
+
+        <button type="button" ondblclick="submitForm()">Submit (Double Click)</button>
+
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
